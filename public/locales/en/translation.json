@@ -1,0 +1,40 @@
+{
+  "menu": {
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "dev": "FRONT-END WEB DEVELOPER",
+    "hello": "Hey, I'm ",
+    "sub": "I focus on solving problems and improving digital experiences. Let's work together!",
+    "projects": "View Projects",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "sub": "The biggest projects I've created from scratch on my own.",
+    "code": "Code",
+    "Movie Bowser": "Movie and TV show browser, where you can search by name, genres, and lists based on popularity or rating.",
+    "BudgetApp": "Designed primarily for managing personal expenses."
+  },
+  "about": {
+    "title": "About me",
+    "frontEndDev": "Front-End developer",
+    "solvingProblems": "solving problems",
+    "webDev": "web development.",
+    "p1": "I am ",
+    "p2": " specializing in ",
+    "p3": ", with a particular focus on ",
+    "p4": " for building interactive and dynamic interfaces. I use ",
+    "p5": " as my CSS framework, enabling me to style efficiently and quickly. This combination of technologies allows me to create modern, scalable, and optimized products.",
+    "p6": "My journey in programming began in high school, initially as a hobby, where I discovered a fascination for ",
+    "p7": ". I started by practicing logic and then occasionally programming video games until I decided to take it seriously and dedicate myself to "
+  },
+  "contact": {
+    "title": "Do you have a project in mind",
+    "sub1": "I have the tools to develop it.",
+    "sub2": "Contact me and let's talk about your next project."
+  },
+  "footer": "Made with 💜. © 2024 Federico Benjamín"
+}

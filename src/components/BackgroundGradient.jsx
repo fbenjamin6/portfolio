@@ -13,7 +13,7 @@ export function BackgroundGradient() {
   }, [])
 
   return (
-    <div onScroll={(e) => console.log(e)} id="backgroundGradient" className=" bottom-0 absoulte overflow-visible fixed h-[200%] w-[200%]  -z-50 transition-all ease-out"
+    <div id="backgroundGradient" className=" bottom-0 absoulte overflow-visible fixed h-[200%] w-[200%]  -z-50 transition-all ease-out"
       style={{
         transform: `translateY(${translate}px) translateX(-${translate * 0}px)`
       }}>

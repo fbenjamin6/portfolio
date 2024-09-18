@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectCard } from "../ProjectCard";
+import { useTranslation } from "react-i18next";
 
 const projects = [
   {
@@ -73,16 +74,18 @@ const projects = [
 
 
 export function Projects() {
+  const { t } = useTranslation()
+
   return (
     <section id="projects" className="flex flex-col gap-7 lg:gap-11 pt-24 mb-28">
       <div>
-        <h3 className="text-3xl md:text-4xl max-md:mb-1 font-bold">Proyectos<span className="text-purple">.</span></h3>
-        <p className="text-customGray md:text-lg lg:text-xl">Los proyectos mas grandes que he creado por mi cuenta desde cero.</p>
+        <h3 className="text-3xl md:text-4xl max-md:mb-1 font-bold">{t('projects.title')}<span className="text-purple">.</span></h3>
+        <p className="text-customGray md:text-lg lg:text-xl">{t('projects.sub')}</p>
       </div>
 
       {
         projects.map(({ id, name, description, imgSrc, code, website, techs }) => {
-          return <ProjectCard key={id} name={name} description={description} imgSrc={imgSrc} code={code} website={website} techs={techs} />
+          return <ProjectCard key={id} name={name} description={t(`projects.${name}`)} imgSrc={imgSrc} code={code} website={website} techs={techs} t={t('projects.code')} />
         })
       }
 
