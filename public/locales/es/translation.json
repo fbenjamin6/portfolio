@@ -1,11 +1,11 @@
 {
   "menu": {
     "projects": "Proyectos",
-    "about": "Sobre mi",
+    "about": "Sobre mí",
     "contact": "Contacto"
   },
   "hero": {
-    "dev": "DESARROLADOR WEB FRONT-END",
+    "dev": "DESARROLLADOR WEB FRONT-END",
     "hello": "Hola, soy ",
     "sub": "Me enfoco en solucionar problemas y mejorar las experiencias digitales. ¡Trabajemos juntos!",
     "projects": "Ver Proyectos",
@@ -13,7 +13,7 @@
   },
   "projects": {
     "title": "Proyectos",
-    "sub": "Los proyectos mas grandes que he creado por mi cuenta desde cero.",
+    "sub": "Los proyectos más grandes que he creado por mi cuenta desde cero.",
     "code": "Código",
     "Movie Bowser": "Buscador de películas y series, en el que puedes buscar por nombre, géneros y listas según su popularidad o calificación.",
     "BudgetApp": "Pensada para gestionar gastos personales principalmente."
@@ -32,9 +32,9 @@
     "p7": ". Empecé ejercitando la lógica y luego seguí programando videojuegos de vez en cuando, hasta que decidí tomármelo en serio este último tiempo y dedicarme al "
   },
   "contact": {
-    "title": "¿Tienes algun proyecto en mente",
+    "title": "¿Tienes algún proyecto en mente",
     "sub1": "Yo tengo las herramientas para desarrollarlo.",
-    "sub2": "Contactame y hablemos sobre tu proximo proyecto."
+    "sub2": "Contáctame y hablemos sobre tu próximo proyecto."
   },
   "footer": "Hecho con 💜. © 2024 Federico Benjamín"
 }
