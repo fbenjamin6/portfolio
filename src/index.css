@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SpaceMono';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('./assets/fonts/SpaceMono-Regular.ttf') format("opentype"),
+      url('./assets/fonts/SpaceMono-Bold.ttf') format("opentype");
+  }
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #151515;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+#backgroundGradient {
+  background: radial-gradient(circle at 47% 65%, rgba(66, 28, 104, 0.8) 0%, rgba(21, 21, 21, 0) 20%),
+    radial-gradient(circle at 47% 65%, rgba(18, 58, 124, 1) 0%, rgba(21, 21, 21, 1) 65%)
+}
+
+@media screen and (max-width:1023px) {
+  .techTag {
+    width: max-content !important;
+    padding-right: 8px;
+  }
+
+  #backgroundGradient {
+    background: radial-gradient(circle at 48% 62%, rgba(66, 28, 104, 0.8) 0%, rgba(21, 21, 21, 0) 15%),
+      radial-gradient(circle at 48% 62%, rgba(18, 58, 124, 1) 0%, rgba(21, 21, 21, 1) 40%)
+  }
+}
