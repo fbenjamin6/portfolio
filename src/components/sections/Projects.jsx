@@ -8,7 +8,7 @@ const projects = [
     name: 'Movie Bowser',
     description: 'Buscador de películas y series, en el que puedes buscar por nombre, géneros y listas según su popularidad o calificación.',
     imgSrc: '/imgs/movieBowser.webp',
-    code: 'https://github.com/fbenjamin6/MovieBowser/tree/main',
+    code: 'https://github.com/fbenjamin6/MovieBowser',
     website: 'https://movie-bowser.vercel.app/',
     techs: [
       {

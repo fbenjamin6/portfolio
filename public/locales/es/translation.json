@@ -15,8 +15,8 @@
     "title": "Proyectos",
     "sub": "Los proyectos más grandes que he creado por mi cuenta desde cero.",
     "code": "Código",
-    "Movie Bowser": "Buscador de películas y series, en el que puedes buscar por nombre, géneros y listas según su popularidad o calificación.",
-    "BudgetApp": "Pensada para gestionar gastos personales principalmente."
+    "Movie Bowser": "Desarrollado con Next.js que permite a los usuarios explorar una extensa base de datos de películas y series, utilizando la API de The Movie Database (TMDB).",
+    "BudgetApp": "Aplicación web para gestionar gastos personales, que permite a los usuarios rastrear ingresos, gastos y facturas recurrentes de manera organizada."
   },
   "about": {
     "title": "Sobre mi",

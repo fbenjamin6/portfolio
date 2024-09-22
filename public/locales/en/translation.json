@@ -13,10 +13,10 @@
   },
   "projects": {
     "title": "Projects",
-    "sub": "The biggest projects I've created from scratch on my own.",
+    "sub": "The biggest projects I have created on my own from scratch.",
     "code": "Code",
-    "Movie Bowser": "Movie and TV show browser, where you can search by name, genres, and lists based on popularity or rating.",
-    "BudgetApp": "Designed primarily for managing personal expenses."
+    "Movie Bowser": "Developed with Next.js that allows users to explore an extensive database of movies and series, using The Movie Database API (TMDB).",
+    "BudgetApp": "Web application for managing personal expenses, which allows users to track income, expenses and recurring bills in an organized manner."
   },
   "about": {
     "title": "About me",

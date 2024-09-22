@@ -13,11 +13,11 @@ export function Contact() {
         <p className="text-customGray">{t('contact.sub2')}</p>
       </div>
       <div className="flex gap-2.5 md:gap-4 m-auto font-semibold">
-        <LinkButton>
+        <LinkButton href={"mailto:benjamin.federico6@Gmail.com"}>
           <MailIcon /> Mail
         </LinkButton>
 
-        <LinkButton>
+        <LinkButton href={"https://www.linkedin.com/in/federicobenjamin/"}>
           <LinkedinIcon /> Linkedin
         </LinkButton>
       </div>
