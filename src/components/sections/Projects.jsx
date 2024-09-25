@@ -36,9 +36,6 @@ const projects = [
         tag: 'POSTGRESQL'
       }
 
-
-
-
     ]
 
   },
@@ -64,7 +61,7 @@ const projects = [
       },
       {
         img: '/imgs/boostrap.png',
-        tag: 'BOOSTRAP'
+        tag: 'BOOTSTRAP'
       },
 
     ]
