@@ -13,27 +13,33 @@ const projects = [
     techs: [
       {
         img: '/imgs/next.jpg',
-        tag: 'NEXTJS'
+        tag: 'NEXTJS',
+        alt: 'Next.js tech logo'
       },
       {
         img: '/imgs/react.png',
-        tag: 'REACT'
+        tag: 'REACT',
+        alt: 'React tech logo'
       },
       {
         img: '/imgs/javaScript.png',
-        tag: 'JAVASCRIPT'
+        tag: 'JAVASCRIPT',
+        alt: 'JavaScript tech logo'
       },
       {
         img: '/imgs/tailwind.png',
-        tag: 'TAILWIND'
+        tag: 'TAILWIND',
+        alt: 'Tailwind CSS tech logo'
       },
       {
         img: '/imgs/prisma.jpg',
-        tag: 'PRISMA'
+        tag: 'PRISMA',
+        alt: 'Prisma tech logo'
       },
       {
         img: '/imgs/postgresql.svg',
-        tag: 'POSTGRESQL'
+        tag: 'POSTGRESQL',
+        alt: 'PostgreSQL tech logo'
       }
 
     ]
@@ -49,19 +55,23 @@ const projects = [
     techs: [
       {
         img: '/imgs/html.png',
-        tag: 'HTML'
+        tag: 'HTML',
+        alt: 'HTML tech logo'
       },
       {
         img: '/imgs/css.png',
-        tag: 'CSS'
+        tag: 'CSS',
+        alt: 'CSS tech logo'
       },
       {
         img: '/imgs/javaScript.png',
-        tag: 'JAVASCRIPT'
+        tag: 'JAVASCRIPT',
+        alt: 'JavaScript tech logo'
       },
       {
         img: '/imgs/boostrap.png',
-        tag: 'BOOTSTRAP'
+        tag: 'BOOTSTRAP',
+        alt: 'Bootstrap tech logo'
       },
 
     ]

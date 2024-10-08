@@ -15,7 +15,7 @@
     "title": "Projects",
     "sub": "The biggest projects I have created on my own from scratch.",
     "code": "Code",
-    "Movie Bowser": "Developed with Next.js that allows users to explore an extensive database of movies and series, using The Movie Database API (TMDB).",
+    "Movie Bowser": "Developed with Next.js, allows users to explore an extensive database of movies and series, using The Movie Database API (TMDB).",
     "BudgetApp": "Web application for managing personal expenses, which allows users to track income, expenses and recurring bills in an organized manner."
   },
   "about": {
@@ -36,5 +36,5 @@
     "sub1": "I have the tools to develop it.",
     "sub2": "Contact me and let's talk about your next project."
   },
-  "footer": "Made with 💜. © 2024 Federico Benjamín"
+  "footer": "Made with 💜. 2024 Federico Benjamín"
 }

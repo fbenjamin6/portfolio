@@ -23,8 +23,8 @@ export function ProjectCard({ name, description, imgSrc, code, website, techs, t
           </div>
           <ul className="flex gap-2 md:gap-3 max-lg:flex-wrap">
             {
-              techs.map(({ img, tag }, index) => {
-                return <TechTag key={index} img={img} tag={tag} />
+              techs.map(({ img, tag, alt }, index) => {
+                return <TechTag key={index} img={img} tag={tag} alt={alt} />
               })
             }
           </ul>

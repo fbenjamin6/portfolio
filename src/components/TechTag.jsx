@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-export function TechTag({ img, tag }) {
+export function TechTag({ img, tag, alt }) {
   const liRef = useRef()
   const [width, setWidth] = useState('')
   const [isHover, setIsHover] = useState(false)
@@ -18,7 +18,7 @@ export function TechTag({ img, tag }) {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       style={{ width: isHover ? `${width}px` : '34px' }}>
-      <img src={img} alt="Web technology icon" className="rounded-full w-[18px] lg:w-[20px]" />
+      <img src={img} alt={alt} className="rounded-full w-[18px] lg:w-[20px]" />
       <p className=" font-spaceMono text-[11px] lg:text-xs ">{tag}</p>
     </li >
   )
