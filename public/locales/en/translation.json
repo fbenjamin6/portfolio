@@ -16,7 +16,8 @@
     "sub": "The biggest projects I have created on my own from scratch.",
     "code": "Code",
     "Movie Bowser": "Developed with Next.js, allows users to explore an extensive database of movies and series, using The Movie Database API (TMDB).",
-    "BudgetApp": "Web application for managing personal expenses, which allows users to track income, expenses and recurring bills in an organized manner."
+    "BudgetApp": "Web application for managing personal expenses, which allows users to track income, expenses and recurring bills in an organized manner.",
+    "Memoween": "It is a Halloween memo test where players must find pairs of cards, score points and hear a unique sound for each character."
   },
   "about": {
     "title": "About me",
